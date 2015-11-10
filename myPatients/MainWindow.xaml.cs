@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -27,6 +28,8 @@ namespace myPatients
     /// </summary>
     public partial class MainWindow : Window
     {
+        const string DEFAULT_BLOOD_FILENAME = "noType";
+
         Random rnd = new Random(System.Environment.TickCount);
 
         ObservableCollection<Patient> group = new ObservableCollection<Patient>();
@@ -70,10 +73,10 @@ namespace myPatients
             lbxPatients.ItemsSource = filteredGroup;
         }
 
-        private void lbxPatients_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            Notice2.Text = (lbxPatients.SelectedIndex >= 0) ? (lbxPatients.SelectedItem as Patient).Name : "Nothing Selected";
-        }
+        //private void lbxPatients_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        //{
+        //    Notice2.Text = (lbxPatients.SelectedIndex >= 0) ? (lbxPatients.SelectedItem as Patient).Name : "Nothing Selected";
+        //}
 
         private void RadioButton_Checked(object sender, RoutedEventArgs e)
         {
@@ -93,23 +96,38 @@ namespace myPatients
                 {
                     filteredGroup.Add(patient);
                     Notice1.Text = "BLOOD TYPE A";
+                    upDateBloodImage(Convert.ToString(blood));
                 }
                 else if (patient.Blood == BloodGroup.AB && blood == 'Y')
                 {
                     filteredGroup.Add(patient);
                     Notice1.Text = "BLOOD TYPE AB";
+                    upDateBloodImage(Convert.ToString(blood));
                 }
                 else if (patient.Blood == BloodGroup.B && blood == 'B')
                 {
                     filteredGroup.Add(patient);
                     Notice1.Text = "BLOOD TYPE B";
+                    upDateBloodImage(Convert.ToString(blood));
                 }
                 else if (blood == 'Z')
                 {
                     filteredGroup.Add(patient);
                     Notice1.Text = "ALL BLOOD TYPES";
+                    upDateBloodImage();
                 }
             }
+        }
+
+        private void upDateBloodImage(string filename="")
+        {
+            if (String.IsNullOrEmpty(filename)) filename = DEFAULT_BLOOD_FILENAME;
+            BitmapImage bm = new BitmapImage();
+            bm.BeginInit();
+            var path = "pack://application:,,,/myPatients;component/Images" + filename + ".jpg";
+            bm.UriSource = new Uri(path);
+            imgBlood.Source = bm;
+            bm.EndInit();
         }
     }  // end class
 }  // end ns

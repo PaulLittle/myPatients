@@ -98,7 +98,16 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Resource Include="Images\noType.jpg" />
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="Images\A.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Y.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\B.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

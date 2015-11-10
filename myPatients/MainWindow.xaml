@@ -20,8 +20,8 @@
                 <RadioButton GroupName="rbgBlood" Checked="RadioButton_Checked" FontFamily="calibri" FontSize="18" Foreground="BlanchedAlmond" Margin="5">B</RadioButton>
             </StackPanel>
         </GroupBox>
-        <ListBox Name="lbxPatients" Background="BlanchedAlmond" Foreground="DarkRed" Margin="10" FontFamily="calibri" FontSize="20" MinHeight="150" SelectionChanged="lbxPatients_SelectionChanged"></ListBox>
+        <ListBox Name="lbxPatients" Background="BlanchedAlmond" Foreground="DarkRed" Margin="10" FontFamily="calibri" FontSize="20" MinHeight="150"></ListBox>
         <TextBlock Name="Notice1" Margin="10" Foreground="DarkRed" FontFamily="calibri" FontSize="24"></TextBlock>
-        <TextBlock Name="Notice2" Margin="10" Foreground="DarkRed" FontFamily="calibri" FontSize="24"></TextBlock>
+        <Image Name="imgBlood" Stretch="Uniform" Margin="15"></Image>
     </StackPanel>
 </Window>

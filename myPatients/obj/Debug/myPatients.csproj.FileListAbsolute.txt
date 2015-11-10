@@ -12,3 +12,34 @@ C:\Users\PaulLittle\Documents\AAPAUL\BSc in Software Development\Year2\FOOP\Prac
 C:\Users\PaulLittle\Documents\AAPAUL\BSc in Software Development\Year2\FOOP\Practice\myPatients\myPatients\obj\Debug\myPatients.csproj.GenerateResource.Cache
 C:\Users\PaulLittle\Documents\AAPAUL\BSc in Software Development\Year2\FOOP\Practice\myPatients\myPatients\obj\Debug\myPatients.exe
 C:\Users\PaulLittle\Documents\AAPAUL\BSc in Software Development\Year2\FOOP\Practice\myPatients\myPatients\obj\Debug\myPatients.pdb
+E:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\bin\Debug\myPatients.exe.config
+E:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\obj\Debug\myPatients.exe
+E:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\obj\Debug\myPatients.pdb
+E:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\obj\Debug\myPatients.csprojResolveAssemblyReference.cache
+E:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\obj\Debug\MainWindow.g.cs
+E:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\obj\Debug\App.g.cs
+E:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\obj\Debug\myPatients_MarkupCompile.cache
+E:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\obj\Debug\myPatients_MarkupCompile.lref
+E:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\bin\Debug\myPatients.exe
+E:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\bin\Debug\myPatients.pdb
+E:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\obj\Debug\MainWindow.baml
+E:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\obj\Debug\myPatients.g.resources
+E:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\obj\Debug\myPatients.Properties.Resources.resources
+E:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\obj\Debug\myPatients.csproj.GenerateResource.Cache
+F:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\bin\Debug\myPatients.exe.config
+F:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\obj\Debug\myPatients.exe
+F:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\obj\Debug\myPatients.pdb
+G:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\bin\Debug\myPatients.exe.config
+G:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\obj\Debug\myPatients.exe
+G:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\obj\Debug\myPatients.pdb
+G:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\bin\Debug\myPatients.exe
+G:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\bin\Debug\myPatients.pdb
+G:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\obj\Debug\myPatients.csprojResolveAssemblyReference.cache
+G:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\obj\Debug\MainWindow.g.cs
+G:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\obj\Debug\App.g.cs
+G:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\obj\Debug\myPatients_MarkupCompile.cache
+G:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\obj\Debug\myPatients_MarkupCompile.lref
+G:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\obj\Debug\MainWindow.baml
+G:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\obj\Debug\myPatients.g.resources
+G:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\obj\Debug\myPatients.Properties.Resources.resources
+G:\BSc_in_Software_Development\FOOP\Practice\myPatients\myPatients\obj\Debug\myPatients.csproj.GenerateResource.Cache
