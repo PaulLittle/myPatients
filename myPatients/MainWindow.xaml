@@ -22,6 +22,6 @@
         </GroupBox>
         <ListBox Name="lbxPatients" Background="BlanchedAlmond" Foreground="DarkRed" Margin="10" FontFamily="calibri" FontSize="20" MinHeight="150"></ListBox>
         <TextBlock Name="Notice1" Margin="10" Foreground="DarkRed" FontFamily="calibri" FontSize="24"></TextBlock>
-        <Image Name="imgBlood" Stretch="Uniform" Margin="1"></Image>
+        <Image Name="imgBlood" Stretch="Uniform" MaxHeight="250" Margin="1" HorizontalAlignment="Left"></Image>
     </StackPanel>
 </Window>
