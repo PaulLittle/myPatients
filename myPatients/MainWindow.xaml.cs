@@ -69,7 +69,7 @@ namespace myPatients
 
         private void PopulateListbox()
         {
-            FilterByBloodGroup('A');
+            FilterByBloodGroup('Z');
             lbxPatients.ItemsSource = filteredGroup;
         }
 
@@ -96,38 +96,38 @@ namespace myPatients
                 {
                     filteredGroup.Add(patient);
                     Notice1.Text = "BLOOD TYPE A";
-                    upDateBloodImage(Convert.ToString(blood));
+                    //upDateBloodImage(Convert.ToString(blood));
                 }
                 else if (patient.Blood == BloodGroup.AB && blood == 'Y')
                 {
                     filteredGroup.Add(patient);
                     Notice1.Text = "BLOOD TYPE AB";
-                    upDateBloodImage(Convert.ToString(blood));
+                    //upDateBloodImage(Convert.ToString(blood));
                 }
                 else if (patient.Blood == BloodGroup.B && blood == 'B')
                 {
                     filteredGroup.Add(patient);
                     Notice1.Text = "BLOOD TYPE B";
-                    upDateBloodImage(Convert.ToString(blood));
+                    //upDateBloodImage(Convert.ToString(blood));
                 }
                 else if (blood == 'Z')
                 {
                     filteredGroup.Add(patient);
                     Notice1.Text = "ALL BLOOD TYPES";
-                    upDateBloodImage();
+                    //upDateBloodImage();
                 }
             }
         }
 
-        private void upDateBloodImage(string filename="")
-        {
-            if (String.IsNullOrEmpty(filename)) filename = DEFAULT_BLOOD_FILENAME;
-            BitmapImage bm = new BitmapImage();
-            bm.BeginInit();
-            var path = "pack://application:,,,/myPatients;component/Images" + filename + ".jpg";
-            bm.UriSource = new Uri(path);
-            imgBlood.Source = bm;
-            bm.EndInit();
-        }
+        //private void upDateBloodImage(string filename="")
+        //{
+        //    if (String.IsNullOrEmpty(filename)) filename = DEFAULT_BLOOD_FILENAME;
+        //    BitmapImage bm = new BitmapImage();
+        //    bm.BeginInit();
+        //    var path = "pack://application:,,,/myPatients;component/Images" + filename + ".jpg";
+        //    bm.UriSource = new Uri(path);
+        //    imgBlood.Source = bm;
+        //    bm.EndInit();
+        //}
     }  // end class
 }  // end ns

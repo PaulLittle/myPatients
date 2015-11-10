@@ -11,9 +11,9 @@
         <GroupBox Header="Filter by Blood Type" Margin="10" Background="BlanchedAlmond" Foreground="DarkBlue" FontFamily="calibri" FontSize="16">
             <StackPanel Orientation="Horizontal">
                 <Label FontFamily="calibri" FontSize="18" Foreground="DarkRed">ALL BLOOD GROUPS</Label>
-                <RadioButton GroupName="rbgBlood" Checked="RadioButton_Checked" FontFamily="calibri" FontSize="18" Foreground="BlanchedAlmond" Margin="5">Z</RadioButton>
+                <RadioButton GroupName="rbgBlood" IsChecked="True" Checked="RadioButton_Checked" FontFamily="calibri" FontSize="18" Foreground="BlanchedAlmond" Margin="5">Z</RadioButton>
                 <Label FontFamily="calibri" FontSize="18" Foreground="DarkRed">BLOOD GROUP A</Label>
-                <RadioButton GroupName="rbgBlood" IsChecked="True" Checked="RadioButton_Checked" FontFamily="calibri" FontSize="18" Foreground="BlanchedAlmond" Margin="5">A</RadioButton>
+                <RadioButton GroupName="rbgBlood" Checked="RadioButton_Checked" FontFamily="calibri" FontSize="18" Foreground="BlanchedAlmond" Margin="5">A</RadioButton>
                 <Label FontFamily="calibri" FontSize="18" Foreground="DarkRed">BLOOD GROUP AB</Label>
                 <RadioButton GroupName="rbgBlood" Checked="RadioButton_Checked" FontFamily="calibri" FontSize="18" Foreground="BlanchedAlmond" Margin="5">Y</RadioButton>
                 <Label FontFamily="calibri" FontSize="18" Foreground="DarkRed">BLOOD GROUP B</Label>
@@ -22,6 +22,6 @@
         </GroupBox>
         <ListBox Name="lbxPatients" Background="BlanchedAlmond" Foreground="DarkRed" Margin="10" FontFamily="calibri" FontSize="20" MinHeight="150"></ListBox>
         <TextBlock Name="Notice1" Margin="10" Foreground="DarkRed" FontFamily="calibri" FontSize="24"></TextBlock>
-        <Image Name="imgBlood" Stretch="Uniform" Margin="15"></Image>
+        <Image Name="imgBlood" Stretch="Uniform" Margin="1"></Image>
     </StackPanel>
 </Window>
